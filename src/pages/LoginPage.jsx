@@ -29,6 +29,7 @@ const LoginPage = () => {
             // console.log(data);
             navigate('/')
         } catch (error) {
+            console.log(error)
             if (error.response) {
                 Swal.fire({
                     title: 'Error!',
