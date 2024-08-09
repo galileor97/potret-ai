@@ -29,6 +29,7 @@ const RegisterPage = () => {
             // console.log(data);
             navigate('/login')
         } catch (error) {
+            console.log(error)
             if (error.response) {
                 Swal.fire({
                     title: 'Error!',
