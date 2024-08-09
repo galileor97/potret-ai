@@ -1,7 +1,7 @@
 import axios from 'axios';
 // import.meta.env.VITE_BASE_URL
 const api = axios.create({
-    baseURL: 'http://34.229.241.54'
+    baseURL: 'https://potret.galileor.com'
 });
 
 export default api;
