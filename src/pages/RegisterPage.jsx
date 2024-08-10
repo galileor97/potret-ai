@@ -99,7 +99,7 @@ const RegisterPage = () => {
                                     type={isVisible ? "text" : "password"}
                                     className="max-w-sm"
                                 />
-                                <Button type="submit" color="primary" size="lg" className="text-white px-28 lg:px-44 mt-4">Login</Button>
+                                <Button type="submit" color="primary" size="lg" className="text-white px-28 lg:px-44 mt-4">Register</Button>
                                 <Divider className="my-3" />
                                 <GoogleLogin />
                                 <div className="flex flex-col items-center gap-x-3 pt-4">
